@@ -39,6 +39,9 @@ You can access the resume project in the following ways:
 
 - Clone the repository locally using the following command:
 
+`git clone https://github.com/Jr-Einstein/resume.git`
+
+
 - Access the live version of the resume at [GitHub Pages](https://Jr-Einstein.github.io/resume)
 
 ## Examples of Use
