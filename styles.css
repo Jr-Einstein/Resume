@@ -4,27 +4,48 @@
     margin: 0px;
     padding: 0px;
 }
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    
+}
 
+p{
+    font-size: 0.9rem;
+    color: #413b3b;
+
+}
 .container{
     display: flex;
     margin-inline: auto;
     width: 65%;
+    gap: 20px;
 }
+
+.card{
+    background-color: rgb(219, 219, 219);
+    box-shadow: 4px 4px 4px #a19f9f;  
+padding: 10px;
+}
+
 
 .left-column{
     width: 30%;
+   
 
 }
 
 .right-column{
     width: 70%;
+    flex-direction: column;
+    gap: 20px;
 }
 .image-box{
     position: relative;
 }
 
 .image-box img{
-    width: 80%;
+    width: 100%;
 
 }
 
@@ -32,7 +53,7 @@
     
 }
 
-.contact-info ul, .skills ul{
+.contact-info ul, .skills ul , .language ul{
     list-style: none;
 }
 .icon-text{
@@ -54,4 +75,17 @@
     background-color: teal;
     border-radius: 100px;
     color: white;
+}
+
+.icon-text p{
+
+    color: rgb(8, 8, 8);
+}
+
+.badge{
+    background-color: teal;
+    color: white;
+    padding: 2px;
+    border-radius: 10px;
+    font-size: 0.8rem;
 }
