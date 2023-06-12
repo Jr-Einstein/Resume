@@ -1,11 +1,14 @@
 *{
     box-sizing: border-box;
-
+    background-color: #eee;
+    margin: 0px;
+    padding: 0px;
 }
 
 .container{
-    background-color: #eee;
-    width: 70%;
+    display: flex;
+    margin-inline: auto;
+    width: 65%;
 }
 
 .left-column{
@@ -15,4 +18,40 @@
 
 .right-column{
     width: 70%;
+}
+.image-box{
+    position: relative;
+}
+
+.image-box img{
+    width: 80%;
+
+}
+
+.image-box .username{
+    
+}
+
+.contact-info ul, .skills ul{
+    list-style: none;
+}
+.icon-text{
+    display: flex;
+    gap: 10px;
+}
+
+.icon-text i{
+    color: teal;
+}
+
+.progressbar {
+    background-color: #ccc;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.progressbar .progress {
+    background-color: teal;
+    border-radius: 100px;
+    color: white;
 }
